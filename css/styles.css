@@ -1,0 +1,42 @@
+/*Global Selector*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/* tag Selector */
+header{
+	display: grid;
+    grid-template-columns: 15% 85%;
+    background-color: #000;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 18px;
+}
+
+img{
+	width: 100%;
+}
+
+header ul{
+	grid-template-columns: repeat(6, 1fr);
+}
+/* Id selector */
+#header{
+	background-color: #393636;
+}
+/* class selector */
+.grid{
+	display: grid;
+}
+footer{
+    grid-template-columns: repeat(4,1fr);
+    background-color: #000;
+}
+
+footer *,header *{
+	color: white;
+}
